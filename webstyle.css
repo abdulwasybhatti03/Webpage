@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    flex-direction: column;
+ font-family: "Roboto",Verdana,  Tahoma, sans-serif;
+}
+.header{
+    display:flex;
+justify-content: space-around;
+background-color: #1F2937;
+}
+.logo{
+
+    color:aliceblue;
+}
+.about{
+   align-self: center;
+    display:flex;
+ gap:50px; 
+}
+.about button{
+     background-color: #1F2937;
+      color:aliceblue;
+      border-color: #1F2937;
+}
+.main{
+    display:flex;
+    justify-content:space-around;
+     
+      height:300px;
+      align-items: center;
+      background-color: #1F2937;
+}
+.text{
+    
+    height:200px;
+    width:300px;
+    
+    color:white;
+
+}
+.image{
+    align-content: center;
+    text-align: center;
+    background-color: gray;
+    height:180px;
+    width:350px;
+flex:0 0 auto;
+color:rgb(214, 208, 208);
+}
+.text button{
+    background-color:#3882F6;
+    width:80px;
+    border-radius: 5px;
+    height:30px;
+    border-color:#3882F6;
+    color:white;
+    font-weight:bold
+}
