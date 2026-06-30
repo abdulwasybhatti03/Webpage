@@ -39,6 +39,10 @@ background-color: #1F2937;
     color:white;
 
 }
+.image:hover{
+    box-shadow:3px 8px 5px rgb(79, 119, 179);
+    border-radius: 20px;
+}
 .image{
     align-content: center;
     text-align: center;
