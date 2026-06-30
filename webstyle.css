@@ -110,20 +110,21 @@ color:rgb(214, 208, 208);
    display:flex;
    justify-content: center;
    align-items: center;
-    border:3px solid red;
+    
     height:250px;
 }
 .info{
     display:flex;
     justify-content:space-around;
-    width:700px;
-    height:90px;
+    width:750px;
+    height:100px;
       
       background-color:#3882F6;
       border-radius: 20px;
 }
 .info h3{
     width:400px;
+
     color:white;
      
 }
